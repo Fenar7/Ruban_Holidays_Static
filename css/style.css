@@ -1,0 +1,25 @@
+body {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  padding: 1.4375rem 0rem !important;
+  border: 1px solid black;
+}
+header .header-container .logo img {
+  height: 2.75rem;
+}
+header .header-container .links-container a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #252525;
+  padding: 7px 12px;
+}
+header .header-container .links-container .contact-us-btn {
+  background-color: #26a387;
+  padding: 0.7875rem 1.3125em;
+  border-radius: 10rem;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

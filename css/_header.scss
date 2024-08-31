@@ -1,0 +1,30 @@
+@import 'variables';
+
+header{
+    padding: 1.4375rem 0rem!important;
+    border: 1px solid black;
+    .header-container{
+        .logo{
+            img{
+                height: 2.75rem;
+            }
+        }
+
+        .links-container{
+            a{
+                text-decoration: none;
+                font-size: 1rem;
+                font-weight: 500;
+                color: $black;
+                padding: 7px 12px;
+            }
+
+            .contact-us-btn{
+                background-color: $cta-color;
+                padding: 0.7875rem 1.3125em;
+                border-radius: 10rem;
+                color: $white;
+            }
+        }
+    }
+}
