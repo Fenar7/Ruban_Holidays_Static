@@ -35,7 +35,7 @@ img {
 }
 .hero-section-container-main .hero-section-container h1 {
   color: #fff;
-  font-size: 4.0625rem;
+  font-size: 3.7rem;
   font-weight: 800;
   margin-bottom: 0.2em;
 }
@@ -675,8 +675,18 @@ img {
 header {
   padding: 1.4375rem 0rem !important;
 }
+@media (max-width: 768px) {
+  header {
+    padding: 1.4375rem 1rem !important;
+  }
+}
 header .header-container .logo img {
   height: 2.75rem;
+}
+@media (max-width: 768px) {
+  header .header-container .links-container {
+    display: none;
+  }
 }
 header .header-container .links-container a {
   text-decoration: none;
@@ -690,6 +700,14 @@ header .header-container .links-container .contact-us-btn {
   padding: 0.7875rem 1.3125em;
   border-radius: 10rem;
   color: #fff;
+}
+@media (min-width: 768px) {
+  header .header-container .ham-icon {
+    display: none;
+  }
+}
+header .header-container .ham-icon img {
+  width: 40px;
 }
 
 footer {

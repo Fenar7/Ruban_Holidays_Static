@@ -2,6 +2,9 @@
 
 header{
     padding: 1.4375rem 0rem!important;
+    @media(max-width:768px){
+        padding: 1.4375rem 1rem!important;
+    }
     .header-container{
         .logo{
             img{
@@ -10,6 +13,9 @@ header{
         }
 
         .links-container{
+            @media(max-width:768px){
+                display: none;
+            }
             a{
                 text-decoration: none;
                 font-size: 1rem;
@@ -23,6 +29,15 @@ header{
                 padding: 0.7875rem 1.3125em;
                 border-radius: 10rem;
                 color: $white;
+            }
+        }
+
+        .ham-icon{
+            @media(min-width:768px){
+                display: none;
+            }
+            img{
+                width: 40px;
             }
         }
     }

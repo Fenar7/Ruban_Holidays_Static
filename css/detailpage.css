@@ -124,6 +124,7 @@
   display: flex;
   align-items: center;
   gap: 2em;
+  flex-wrap: wrap;
 }
 .information-section-container-main .information-section-container .item-card-follow .body-section .item {
   display: flex;
@@ -329,6 +330,21 @@
 .stays-for-rent-container .stays-for-rent .cards-container {
   width: 100%;
 }
+@media (max-width: 900px) {
+  .stays-for-rent-container .stays-for-rent .cards-container {
+    flex-wrap: wrap;
+  }
+}
 .stays-for-rent-container .stays-for-rent .cards-container .cardd {
   width: 23%;
+}
+@media (max-width: 900px) {
+  .stays-for-rent-container .stays-for-rent .cards-container .cardd {
+    width: 48%;
+  }
+}
+@media (max-width: 576px) {
+  .stays-for-rent-container .stays-for-rent .cards-container .cardd {
+    width: 100%;
+  }
 }/*# sourceMappingURL=detailpage.css.map */
