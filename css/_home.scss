@@ -191,12 +191,21 @@
                     }
 
                     .details-section{
+                        gap: 0.7em;
+                        p{
+                            font-family: inherit;
+                            color: $white;
+                            font-size: 0.875rem;
+                            font-weight: 400;
+                            color: $white;
+                            text-shadow: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
+                        }
                         h5{
                             font-family: inherit;
                             font-size: 1.25rem;
                             font-weight: 600;
                             color: $white;
-                            text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.88);
+                            text-shadow: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                             span{
                                 font-size: 0.875rem;
                             }
@@ -222,7 +231,7 @@
                                 font-size: 1.0625rem;
                                 font-weight: 600;
                                 margin-left: 0.4375em;
-                                text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.88);
+                                text-shadow: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                             }
                         }
                     }

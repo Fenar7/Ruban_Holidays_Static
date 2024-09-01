@@ -187,12 +187,23 @@ p {
   width: 23px;
   height: auto;
 }
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .image .details-section {
+  gap: 0.7em;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .image .details-section p {
+  font-family: inherit;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
+}
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .image .details-section h5 {
   font-family: inherit;
   font-size: 1.25rem;
   font-weight: 600;
   color: #fff;
-  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.88);
+  text-shadow: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .image .details-section h5 span {
   font-size: 0.875rem;
@@ -215,7 +226,7 @@ p {
   font-size: 1.0625rem;
   font-weight: 600;
   margin-left: 0.4375em;
-  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.88);
+  text-shadow: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .details {
   background-color: blue;
