@@ -361,3 +361,30 @@
         }
     }
   }
+
+  .get-started-container{
+    .get-started{
+        padding: 5.625em 0em;
+        .heading-container{
+            img{
+                width: 50px;
+                margin-bottom: 1.5625rem;
+            }
+            h3{
+                font-family: inherit;
+                font-size: 1.85rem;
+                font-weight: 800;
+
+                span{
+                    color: $cta-color;
+                }
+            }
+
+            p{
+                font-size: 1.0625rem;
+                font-weight: 500;
+                color: #b5b5b5;
+            }
+        }
+    }
+  }

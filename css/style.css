@@ -323,6 +323,27 @@ p {
   margin-left: 0.9em;
 }
 
+.get-started-container .get-started {
+  padding: 5.625em 0em;
+}
+.get-started-container .get-started .heading-container img {
+  width: 50px;
+  margin-bottom: 1.5625rem;
+}
+.get-started-container .get-started .heading-container h3 {
+  font-family: inherit;
+  font-size: 1.85rem;
+  font-weight: 800;
+}
+.get-started-container .get-started .heading-container h3 span {
+  color: #26a387;
+}
+.get-started-container .get-started .heading-container p {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  color: #b5b5b5;
+}
+
 header {
   padding: 1.4375rem 0rem !important;
 }
