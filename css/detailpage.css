@@ -180,6 +180,62 @@
 .information-section-container-main .information-section-container .right-column .first-row .item-card {
   width: 48%;
 }
+.information-section-container-main .information-section-container .right-column .first-row .item-card-price .body-section {
+  padding: 2em 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.information-section-container-main .information-section-container .right-column .first-row .item-card-price .body-section h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #26a387;
+}
+.information-section-container-main .information-section-container .right-column .first-row .item-card-neighbourhood .body-section {
+  padding: 1em 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.information-section-container-main .information-section-container .right-column .first-row .item-card-neighbourhood .body-section .item .icon {
+  width: 60px !important;
+  height: 60px;
+  background-color: #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.information-section-container-main .information-section-container .right-column .first-row .item-card-neighbourhood .body-section .item .icon img {
+  width: 40%;
+}
+.information-section-container-main .information-section-container .right-column .item-card-features .body-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.information-section-container-main .information-section-container .right-column .item-card-features .body-section .cards-container {
+  width: 80%;
+}
+.information-section-container-main .information-section-container .right-column .item-card-features .body-section .cards-container .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 1em;
+}
+.information-section-container-main .information-section-container .right-column .item-card-features .body-section .cards-container .item h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.information-section-container-main .information-section-container .right-column .item-card-features .body-section .cards-container .item p {
+  font-size: 0.7rem;
+  color: #979797;
+}
+.information-section-container-main .information-section-container .right-column .item-card-features .body-section .cards-container .item img {
+  width: 20px;
+}
 
 .splide .splide__track {
   height: 70vh !important;

@@ -204,6 +204,73 @@
                 .item-card{
                     width: 48%;
                 }
+
+                .item-card-price{
+                    .body-section{
+                        padding: 2em 0em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        h4{
+                            font-size: 1.2rem;
+                            font-weight: 700;
+                            color: $cta-color;
+                        }
+                }
+                }
+
+                .item-card-neighbourhood{
+                    .body-section{
+                        padding: 1em 0em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                            .item{
+                                .icon{
+                                    width: 60px!important;
+                                    height: 60px;
+                                    background-color: $ic-bg;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border-radius: 100%;
+                                    img{
+                                        width: 40%;
+                                    }
+                                }
+                            }
+                }
+                }
+            }
+
+            .item-card-features{
+                .body-section{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .cards-container{
+                        width: 80%;
+                        .item{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            text-align: center;
+                            flex-direction: column;
+                            gap: 1em;
+                            h5{
+                                font-size: 1rem;
+                                font-weight: 400;
+                            }
+                            p{
+                                font-size: 0.7rem;
+                                color: #979797;
+                            }
+                            img{
+                                width: 20px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
