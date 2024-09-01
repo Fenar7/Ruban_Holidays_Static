@@ -236,6 +236,46 @@
 .information-section-container-main .information-section-container .right-column .item-card-features .body-section .cards-container .item img {
   width: 20px;
 }
+.information-section-container-main .information-section-container .right-column .item-card-description .body-section .kkk {
+  margin-top: 2.5em;
+  font-size: 1rem;
+  line-height: 1.3em !important;
+}
+.information-section-container-main .information-section-container .right-column .item-card-description .body-section .kkk span {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.information-section-container-main .information-section-container .right-column .item-card-description .body-section .hhh {
+  line-height: 1.8275;
+}
+.information-section-container-main .information-section-container .right-column .item-card-amneties .body-section .row1 {
+  margin-top: 2em;
+  width: 100%;
+  gap: 3em;
+}
+.information-section-container-main .information-section-container .right-column .item-card-amneties .body-section .item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.information-section-container-main .information-section-container .right-column .item-card-amneties .body-section .item .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8e8e8;
+  border-radius: 100%;
+}
+.information-section-container-main .information-section-container .right-column .item-card-amneties .body-section .item .icon img {
+  width: 60%;
+}
+.information-section-container-main .information-section-container .right-column .item-card-amneties .body-section .item h4 {
+  font-size: #252525;
+  font-size: 1rem;
+  font-weight: 400;
+}
 
 .splide .splide__track {
   height: 70vh !important;

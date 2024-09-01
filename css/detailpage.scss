@@ -272,6 +272,57 @@
                     }
                 }
             }
+
+            .item-card-description{
+                .body-section{
+                    .kkk{
+                        margin-top: 2.5em;
+                        span{
+                            font-size: 5rem;
+                            font-weight: 700;
+                        }
+                        font-size: 1rem;
+                        line-height: 1.3em!important;
+                    }
+                    .hhh{
+                        line-height: 1.8275;
+                    }
+                }
+            }
+
+            .item-card-amneties{
+                .body-section{
+                    .row1{
+                        margin-top: 2em;
+                        width: 100%;
+                        gap: 3em;
+                    }
+                    .item{
+                        display: flex;
+                        width: 100%;
+                        align-items: center;
+                        .icon{
+                            width: 30px;
+                            height: 30px;
+                            margin-right: 1.5em;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: #e8e8e8;
+                            border-radius: 100%;
+                            img{
+                                width: 60%;
+                            }
+                        }
+            
+                        h4{
+                            font-size: #252525;
+                            font-size: 1rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
         }
     }
 }
