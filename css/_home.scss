@@ -73,7 +73,7 @@
     background: #FFF;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
     padding: 1.5625em;
-    border-radius: 1rem;
+    border-radius: 2.5rem;
     margin-top: -4em;
     width: 60%!important;
     .slider-card{
@@ -88,6 +88,7 @@
         .splide{
             .splide__track{
                 .splide__list{
+                    padding: 0em 0.3em!important;
                     display: flex;
                     gap: 2em;
                     .splide__slide{
@@ -96,7 +97,7 @@
                         width: 18.66666667%!important;
                         box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
                         margin: .5em 0em;
-                        border-radius: 0.5em;
+                        border-radius: 1.4em;
                         overflow: hidden;
 
                         .category-label{
