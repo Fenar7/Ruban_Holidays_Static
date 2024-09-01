@@ -10,6 +10,13 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
 
+    margin-bottom: 1.5em;
+
+    @media(max-width:576px){
+        margin-bottom: 0em;
+        border-radius: 0px;
+    }
+
     .footer-row{
         @media(max-width:768px){
             row-gap: 1em;

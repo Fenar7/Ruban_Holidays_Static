@@ -6,6 +6,9 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    @media(max-width:576px){
+        height: 90vh;
+    }
     .hero-section-container{
         width: 100%;
         h1{
@@ -16,6 +19,10 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
 
             @media(max-width:1200px){
                 font-size: 3rem;
+            }
+
+            @media(max-width:576px){
+                font-size: 2.3rem;
             }
         }
 
@@ -28,6 +35,11 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
             @media(max-width:1200px){
                 font-size: 0.9rem;
             }
+
+            @media(max-width:576px){
+                height: 0.8rem;
+                margin-bottom: 5em;
+            }
         }
 
         .search-box-container{
@@ -36,6 +48,11 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
             background-color: rgba(255, 255, 255, .15);
             padding: 0.5em 0em;
             border-radius: 0.8rem;
+
+            @media(max-width:576px){
+                padding: 0.3em 0em;
+
+            }
             .inner-container{
                 background-color: white;
                 border-radius: 0.8rem;
@@ -43,8 +60,15 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                 height: 80%!important;
                 overflow: hidden;
                 padding: 1.875em 1.25em;
+                @media(max-width:576px){
+                    flex-wrap: wrap;
+                    row-gap: 0.8em;
+                }
                 .input-field{
                     width: calc(20% - 0.8em);
+                    @media(max-width:576px){
+                        width: 100%;
+                    }
                 }
                 input{
                     width: 100%;
@@ -406,11 +430,21 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
   .get-started-container{
     .get-started{
         padding: 5.625em 0em;
+        @media(max-width:576px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
         .heading-container{
             margin-bottom: 6.25em;
             img{
                 width: 32px;
                 margin-bottom: 1.5625rem;
+            }
+
+            @media(max-width:576px){
+                width: 90%;
             }
             h3{
                 font-family: inherit;
@@ -440,6 +474,11 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
         }
 
         .card-container{
+            @media(max-width:576px){
+                width: 90%;
+                flex-wrap: wrap;
+                row-gap: 1.5em;
+            }
             .item{
                 width: 49%;
                 height: 21.875em;
@@ -448,6 +487,12 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                @media(max-width:576px){
+                    height: 27em;
+                    width: 100%!important;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
                 .text{
                     display: flex;
                     flex-direction: column;
@@ -456,6 +501,7 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                     @media(max-width:900px){
                         gap: 1rem;
                     }
+
                     h3{
                         font-family: inherit;
                         font-size: 2.5rem;
@@ -465,6 +511,10 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                         @media(max-width:900px){
                             font-size: 1.8rem;
                         }
+
+                        @media(max-width:576px){
+                            font-size: 1.5rem;
+                        }
                     }
                     p{
                         font-size: 1.125rem;
@@ -473,6 +523,10 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
 
                         @media(max-width:900px){
                             font-size: 1rem;
+                        }
+
+                        @media(max-width:576px){
+                            font-size: 0.8rem;
                         }
                     }
                     button{
@@ -507,6 +561,12 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
   .keep-exploring-container{
     padding-bottom: 5.625em;
     .keep-exploring{
+        @media(max-width:576px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
         .heading-container{
             img{
                 width: 32px;
@@ -525,12 +585,20 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                 @media(max-width:900px){
                     font-size: 1.5rem;
                 }
+
+                @media(max-width:576px){
+                    font-size: 1.3rem;
+                }
             }
 
             p{
                 font-size: 1.0625rem;
                 font-weight: 500;
                 color: #b5b5b5;
+
+                @media(max-width:576px){
+                    font-size: 0.9rem;
+                }
             }
         }
 
@@ -540,12 +608,20 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
             @media(max-width:1200px){
                 row-gap: 1.5em;
             }
+            @media(max-width:576px){
+                width: 90%;
+                align-items: center;
+                justify-content: center;
+            }
             .item{
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
                     text-align: center;
+                    @media(max-width:576px){
+                        width: 100%;
+                    }
                 .circle-img{
                     box-shadow: 14px 15px 48.5px -2px rgba(0, 0, 0, 0.45);
                     position: relative;
