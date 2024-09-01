@@ -2,6 +2,7 @@
 
 .hero-image-slider-container{
     position: relative;
+    overflow: hidden;
     .slider-overlay {
         position: absolute;
         top: 0;
@@ -57,6 +58,151 @@
                     img{
                         width: 20px;
                     }
+                }
+            }
+        }
+    }
+}
+
+.link-items-container-main{
+    overflow: hidden;
+    padding-bottom: 2em;
+    .link-items-container{
+        button{
+            margin-top: 2.1875rem;
+            background-color: white;
+            border: 4px solid #eee;
+            padding: 0.6em 1em;
+            border-radius: 5rem;
+            display: flex;
+            gap: 0.5em;
+
+            img{
+                width: 25px;
+                margin-left: 0.9em;
+            }
+        }
+    }
+}
+
+.information-section-container-main{
+    padding: 5.625em 0em;
+    background-color: $hash-white;
+    .information-section-container{
+        .item-card{
+            background-color: white;
+            border-radius: 2rem;
+            padding: 1.875em;
+            .head-section{
+                padding-bottom: 2em;
+                border-bottom: 1px solid rgb(231, 231, 231);
+                display: flex;
+                align-items: center;
+
+                .icon{
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 1.5em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #e8e8e8;
+                    border-radius: 100%;
+                    img{
+                        width: 60%;
+                    }
+                }
+
+                h4{
+                    font-size: #252525;
+                    font-size: 1rem;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .item-card-follow{
+            .body-section{
+                padding: 2em 0em;
+                display: flex;
+                align-items: center;
+                gap: 2em;
+                .item{
+                    display: flex;
+                    align-items: center;
+                    .icon{
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 1.5em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #e8e8e8;
+                        border-radius: 100%;
+                        img{
+                            width: 60%;
+                        }
+                    }
+        
+                    h4{
+                        font-size: #252525;
+                        font-size: 1rem;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        .item-card-contact{
+            .body-section{
+                .row1{
+                    margin-top: 2em;
+                    width: 100%;
+                    gap: 3em;
+                }
+                .item{
+                    display: flex;
+                    width: 100%;
+                    align-items: center;
+                    .icon{
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 1.5em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #e8e8e8;
+                        border-radius: 100%;
+                        img{
+                            width: 60%;
+                        }
+                    }
+        
+                    h4{
+                        font-size: #252525;
+                        font-size: 1rem;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        .left-column{
+            width: 48.5%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.7em;
+        }
+
+        .right-column{
+            width: 48.5%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.7em;
+
+            .first-row{
+                .item-card{
+                    width: 48%;
                 }
             }
         }

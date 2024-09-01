@@ -1,5 +1,6 @@
 .hero-image-slider-container {
   position: relative;
+  overflow: hidden;
 }
 .hero-image-slider-container .slider-overlay {
   position: absolute;
@@ -55,6 +56,129 @@
 }
 .hero-image-slider-container .slider-overlay .text-container .icon-cards-container .item img {
   width: 20px;
+}
+
+.link-items-container-main {
+  overflow: hidden;
+  padding-bottom: 2em;
+}
+.link-items-container-main .link-items-container button {
+  margin-top: 2.1875rem;
+  background-color: white;
+  border: 4px solid #eee;
+  padding: 0.6em 1em;
+  border-radius: 5rem;
+  display: flex;
+  gap: 0.5em;
+}
+.link-items-container-main .link-items-container button img {
+  width: 25px;
+  margin-left: 0.9em;
+}
+
+.information-section-container-main {
+  padding: 5.625em 0em;
+  background-color: #f9f9f9;
+}
+.information-section-container-main .information-section-container .item-card {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1.875em;
+}
+.information-section-container-main .information-section-container .item-card .head-section {
+  padding-bottom: 2em;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  display: flex;
+  align-items: center;
+}
+.information-section-container-main .information-section-container .item-card .head-section .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8e8e8;
+  border-radius: 100%;
+}
+.information-section-container-main .information-section-container .item-card .head-section .icon img {
+  width: 60%;
+}
+.information-section-container-main .information-section-container .item-card .head-section h4 {
+  font-size: #252525;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.information-section-container-main .information-section-container .item-card-follow .body-section {
+  padding: 2em 0em;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.information-section-container-main .information-section-container .item-card-follow .body-section .item {
+  display: flex;
+  align-items: center;
+}
+.information-section-container-main .information-section-container .item-card-follow .body-section .item .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8e8e8;
+  border-radius: 100%;
+}
+.information-section-container-main .information-section-container .item-card-follow .body-section .item .icon img {
+  width: 60%;
+}
+.information-section-container-main .information-section-container .item-card-follow .body-section .item h4 {
+  font-size: #252525;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.information-section-container-main .information-section-container .item-card-contact .body-section .row1 {
+  margin-top: 2em;
+  width: 100%;
+  gap: 3em;
+}
+.information-section-container-main .information-section-container .item-card-contact .body-section .item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.information-section-container-main .information-section-container .item-card-contact .body-section .item .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8e8e8;
+  border-radius: 100%;
+}
+.information-section-container-main .information-section-container .item-card-contact .body-section .item .icon img {
+  width: 60%;
+}
+.information-section-container-main .information-section-container .item-card-contact .body-section .item h4 {
+  font-size: #252525;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.information-section-container-main .information-section-container .left-column {
+  width: 48.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.7em;
+}
+.information-section-container-main .information-section-container .right-column {
+  width: 48.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.7em;
+}
+.information-section-container-main .information-section-container .right-column .first-row .item-card {
+  width: 48%;
 }
 
 .splide .splide__track {
