@@ -383,7 +383,35 @@ Integer sit amet felis sed purus suscipit gravida. Fusce vel odio sed leo effici
                         <h4>Gallery</h4>
                     </div>
                     <div class="body-section d-flex">
-                       
+                        <section id="image-carousel2" class="splide splide2" aria-label="Beautiful Images">
+                            <div class="splide__track">
+                                  <ul class="splide__list">
+                                      <li class="splide__slide">
+                                          <img src="./images/sl1.png" alt="">
+                                      </li>
+                
+                                      <li class="splide__slide">
+                                        <img src="./images/sl2.png" alt="">
+                                    </li>
+                
+                                    <li class="splide__slide">
+                                        <img src="./images/sl3.png" alt="">
+                                    </li>
+                
+                                    <li class="splide__slide">
+                                        <img src="./images/sl4.png" alt="">
+                                    </li>
+                
+                                    <li class="splide__slide">
+                                        <img src="./images/sl5.png" alt="">
+                                    </li>
+                
+                                    <li class="splide__slide">
+                                        <img src="./images/sl6.png" alt="">
+                                    </li>
+                                  </ul>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -400,7 +428,17 @@ Integer sit amet felis sed purus suscipit gravida. Fusce vel odio sed leo effici
         pagination: false, // Disable the dots
     });
 
+    var splide2 = new Splide('#image-carousel2', {
+        perPage: 3,
+        focus: 'center',
+        omitEnd: true,
+        pagination: false, // Disable the dots
+    });
+
     splide.mount();
+    splide2.mount();
+
+
 });
 
     </script>
