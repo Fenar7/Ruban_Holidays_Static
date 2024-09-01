@@ -374,6 +374,7 @@
                 font-family: inherit;
                 font-size: 1.85rem;
                 font-weight: 800;
+                margin-bottom: 1.375em;
 
                 span{
                     color: $cta-color;
@@ -381,9 +382,9 @@
             }
 
             p{
-                font-size: 1.0625rem;
-                font-weight: 500;
-                color: #b5b5b5;
+                font-size: 1.3125rem;
+                font-weight: 700;
+                color: $black;
             }
         }
     }
