@@ -32,11 +32,13 @@ img {
   color: #fff;
   font-size: 4.0625rem;
   font-weight: 800;
+  margin-bottom: 0.2em;
 }
 .hero-section-container-main .hero-section-container p {
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
+  margin-bottom: 1em;
 }
 .hero-section-container-main .hero-section-container .search-box-container {
   width: 100%;
@@ -437,7 +439,6 @@ img {
   width: 180px;
   border-radius: 100%;
   height: 180px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("/images/stayimg1.jpg") lightgray 50%/cover no-repeat;
 }
 .keep-exploring-container .keep-exploring .cards-container .item .circle-img .number {
   position: absolute;
@@ -464,6 +465,24 @@ img {
   font-weight: 600;
   font-family: inherit;
   font-size: 1.125rem;
+}
+.keep-exploring-container .keep-exploring .cards-container .item1 .circle-img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("/images/stayimg1.jpg") lightgray 50%/cover no-repeat;
+}
+.keep-exploring-container .keep-exploring .cards-container .item2 .circle-img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("/images/room.jpg") lightgray 50%/cover no-repeat;
+}
+.keep-exploring-container .keep-exploring .cards-container .item3 .circle-img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("/images/slider/img2.png") lightgray 50%/cover no-repeat;
+}
+.keep-exploring-container .keep-exploring .cards-container .item4 .circle-img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("/images/inn.webp") lightgray 50%/cover no-repeat;
+}
+.keep-exploring-container .keep-exploring .cards-container .item5 .circle-img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("/images/sl4.png") lightgray 50%/cover no-repeat;
+}
+.keep-exploring-container .keep-exploring .cards-container .item6 .circle-img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("/images/featured.webp") lightgray 50%/cover no-repeat;
 }
 
 header {
