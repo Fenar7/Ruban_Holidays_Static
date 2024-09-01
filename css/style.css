@@ -500,6 +500,9 @@ footer {
     row-gap: 1em;
   }
 }
+footer .footer-row .logo img {
+  width: 50%;
+}
 @media (max-width: 768px) {
   footer .footer-row .navigation {
     display: flex;
