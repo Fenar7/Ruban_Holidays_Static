@@ -122,13 +122,14 @@ p {
   padding: 5.625em 0em;
 }
 .stays-for-rent-container .stays-for-rent .heading-container img {
-  width: 50px;
+  width: 32px;
   margin-bottom: 1.5625rem;
 }
 .stays-for-rent-container .stays-for-rent .heading-container h3 {
   font-family: inherit;
   font-size: 1.85rem;
   font-weight: 800;
+  margin-bottom: 0.7em;
 }
 .stays-for-rent-container .stays-for-rent .heading-container h3 span {
   color: #26a387;
@@ -326,8 +327,11 @@ p {
 .get-started-container .get-started {
   padding: 5.625em 0em;
 }
+.get-started-container .get-started .heading-container {
+  margin-bottom: 6.25em;
+}
 .get-started-container .get-started .heading-container img {
-  width: 50px;
+  width: 32px;
   margin-bottom: 1.5625rem;
 }
 .get-started-container .get-started .heading-container h3 {
@@ -349,14 +353,65 @@ p {
   height: 21.875em;
   overflow: hidden;
   border-radius: 2.2rem;
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.09%, rgba(0, 0, 0, 0.65) 103.43%), url("/images/call-to.webp") lightgray 50%/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.get-started-container .get-started .card-container .item button {
+.get-started-container .get-started .card-container .item .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.625em;
+  padding: 0em 3.75em;
+}
+.get-started-container .get-started .card-container .item .text h3 {
+  font-family: inherit;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+.get-started-container .get-started .card-container .item .text p {
+  font-size: 1.125rem;
+  color: #fff;
+  font-weight: 600;
+}
+.get-started-container .get-started .card-container .item .text button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
   background-color: white;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #eee;
 }
-.get-started-container .get-started .card-container .item button img {
-  width: 60px;
+.get-started-container .get-started .card-container .item .text button img {
+  width: 23px;
+}
+.get-started-container .get-started .card-container .item1 {
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.09%, rgba(0, 0, 0, 0.65) 103.43%), url("/images/call-to.webp") lightgray 50%/cover no-repeat;
+}
+.get-started-container .get-started .card-container .item2 {
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.09%, rgba(0, 0, 0, 0.65) 103.43%), url("/images/call-to-2.webp") lightgray 50%/cover no-repeat;
+}
+
+.keep-exploring-container .keep-exploring .heading-container img {
+  width: 32px;
+  margin-bottom: 1.5625rem;
+}
+.keep-exploring-container .keep-exploring .heading-container h3 {
+  font-family: inherit;
+  font-size: 1.85rem;
+  font-weight: 800;
+  margin-bottom: 0.7em;
+}
+.keep-exploring-container .keep-exploring .heading-container h3 span {
+  color: #26a387;
+}
+.keep-exploring-container .keep-exploring .heading-container p {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  color: #b5b5b5;
 }
 
 header {
