@@ -62,32 +62,55 @@
         </div>
     </section>
 
-    <div class="slider-card">
-        <section id="image-carousel" class="splide" aria-label="Beautiful Images">
-            <div class="splide__track">
-                  <ul class="splide__list">
-                      <li class="splide__slide">
-                          <img src="./images/logo-main.svg" alt="">
-                      </li>
-                      <li class="splide__slide">
-                          <img src="./images/logo-main.svg" alt="">
-                      </li>
-                      <li class="splide__slide">
-                          <img src="./images/logo-main.svg" alt="">
-                      </li>
-                  </ul>
-            </div>
-          </section>
+    <div class="slider-card-container container">
+        <div class="slider-card">
+            <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide">
+                              <img src="./images/slider/img2.png" alt="">
+                              <div class="category-label">
+                                <h5>Room</h5>
+                              </div>
+                          </li>
+                          <li class="splide__slide">
+                              <img src="./images/slider/img2.png" alt="">
+                          </li>
+                          <li class="splide__slide">
+                            <img src="./images/slider/img2.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/slider/img2.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/slider/img2.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/slider/img2.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/slider/img2.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/slider/img2.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/slider/img2.png" alt="">
+                        </li>
+                      </ul>
+                </div>
+            </section>
+        </div>
     </div>
 
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
     var splide = new Splide('#image-carousel', {
-        perPage: 5,
+        perPage: 6,
         focus: 'center',
         omitEnd: true,
-        type: 'loop',  // This ensures the carousel loops smoothly.
+        pagination: false, // Disable the dots
     });
 
     splide.mount();
