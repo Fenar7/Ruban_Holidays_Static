@@ -3,6 +3,16 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
 .hero-section-container-main {
   height: 75vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("/images/hero-img.jpg") lightgray 50%/cover no-repeat;
@@ -124,15 +134,88 @@ body {
   font-weight: 500;
   color: #b5b5b5;
 }
+.stays-for-rent-container .stays-for-rent .cards-container {
+  width: 75%;
+}
+@media (max-width: 1400px) {
+  .stays-for-rent-container .stays-for-rent .cards-container {
+    width: 80%;
+  }
+}
 .stays-for-rent-container .stays-for-rent .cards-container .cardd {
   display: grid;
   height: 500px;
-  width: 30%;
+  width: 32%;
   grid-template-rows: 60% 40%;
   background-color: white;
+  border-radius: 1.8rem;
+  overflow: hidden;
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .image {
-  background-color: red;
+  background-color: white;
+  background: linear-gradient(138deg, rgba(0, 0, 0, 0) 3.1%, rgba(0, 0, 0, 0.7) 100.25%), url("/images/stayimg1.jpg") lightgray 50%/cover no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 1.8rem;
+  position: relative;
+  padding: 1.5rem;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .image .top-items .rating-circle {
+  background-color: #26a387;
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .image .top-items .rating-circle p {
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: inherit;
+  color: #fff;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .image .top-items .heart-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.19);
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .image .top-items .heart-icon img {
+  width: 23px;
+  height: auto;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .image .details-section h5 {
+  font-family: inherit;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.88);
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .image .details-section h5 span {
+  font-size: 0.875rem;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .image .details-section .prop-name .check-icon {
+  width: 25px;
+  height: 25px;
+  background-color: #26a387;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .image .details-section .prop-name .check-icon img {
+  width: 18px;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .image .details-section .prop-name h4 {
+  font-family: inherit;
+  color: #fff;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  margin-left: 0.4375em;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.88);
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .details {
   background-color: blue;
