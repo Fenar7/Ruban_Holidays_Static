@@ -42,6 +42,25 @@ body {
 }
 .hero-section-container-main .hero-section-container .search-box-container .inner-container input {
   width: 100%;
+  border: 1px solid #ebebeb;
+  color: #484848;
+  font-size: 0.875rem;
+  padding: 1em 0.95em;
+}
+.hero-section-container-main .hero-section-container .search-box-container .inner-container select {
+  width: 100%;
+  border: 1px solid #ebebeb;
+  color: #717171 !important;
+  font-size: 0.875rem;
+  padding: 1em 0.95em;
+}
+.hero-section-container-main .hero-section-container .search-box-container .inner-container button {
+  padding: 1em 0.95em;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: 0.4em;
+  color: #fff;
+  background-color: #252525;
 }
 .hero-section-container-main .hero-section-container .search-box-container .inner-container .search-box {
   overflow: hidden;

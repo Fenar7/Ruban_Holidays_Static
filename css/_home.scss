@@ -35,6 +35,27 @@
                 }
                 input{
                     width: 100%;
+                    border: 1px solid #ebebeb;
+                    color: #484848;
+                    font-size: 0.875rem;
+                    padding: 1em 0.95em;
+                }
+
+                select{
+                    width: 100%;
+                    border: 1px solid #ebebeb;
+                    color: #717171!important;
+                    font-size: 0.875rem;
+                    padding: 1em 0.95em;
+                }
+
+                button{
+                    padding: 1em 0.95em;
+                    font-size: 0.875rem;
+                    border: none;
+                    border-radius: 0.4em;
+                    color: $white;
+                    background-color: $black;
                 }
             .search-box{
                 overflow: hidden;
