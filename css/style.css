@@ -30,6 +30,11 @@ img {
     height: 90vh;
   }
 }
+@media (max-width: 400px) {
+  .hero-section-container-main {
+    height: 100vh;
+  }
+}
 .hero-section-container-main .hero-section-container {
   width: 100%;
 }
@@ -46,7 +51,7 @@ img {
 }
 @media (max-width: 576px) {
   .hero-section-container-main .hero-section-container h1 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
 }
 .hero-section-container-main .hero-section-container p {
@@ -135,6 +140,16 @@ img {
   border-radius: 2.5rem;
   margin-top: -4em;
   width: 60% !important;
+}
+@media (max-width: 576px) {
+  .slider-card-container {
+    margin-top: -1.5em;
+  }
+}
+@media (max-width: 400px) {
+  .slider-card-container {
+    margin-top: 1.5em;
+  }
 }
 @media (max-width: 1200px) {
   .slider-card-container {
