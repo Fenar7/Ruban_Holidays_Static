@@ -238,7 +238,31 @@
                 }
 
                 .details{
-                    background-color: blue;
+                    background-color: $white;
+                    border: 1px solid black;
+
+                    .features-row{
+                        padding: 0.6875em 0.5em;
+
+                        .item{
+                            img{
+                                width: 16px;
+                            }
+
+                            display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                            gap: 0.6em;
+                            justify-content: center;
+                            text-align: center;
+
+                            p{
+                                font-family: inherit;
+                                font-size: 0.8125rem;
+                                font-weight: 400;
+                            }
+                        }
+                    }
                 }
             }
         }

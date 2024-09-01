@@ -229,7 +229,27 @@ p {
   text-shadow: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .details {
-  background-color: blue;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .features-row {
+  padding: 0.6875em 0.5em;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .features-row .item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.6em;
+  justify-content: center;
+  text-align: center;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .features-row .item img {
+  width: 16px;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .features-row .item p {
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 400;
 }
 
 header {
