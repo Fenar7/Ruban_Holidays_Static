@@ -301,4 +301,11 @@
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.stays-for-rent-container .stays-for-rent .cards-container {
+  width: 100%;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd {
+  width: 23%;
 }/*# sourceMappingURL=detailpage.css.map */

@@ -353,3 +353,14 @@
     object-fit: cover;
     object-position: center;
 }
+
+.stays-for-rent-container{
+    .stays-for-rent{
+        .cards-container{
+            width: 100%;
+            .cardd{
+                width: 23%;
+            }
+        }
+    }
+}
