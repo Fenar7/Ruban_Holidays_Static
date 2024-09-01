@@ -81,7 +81,7 @@ p {
 
 .slider-card-container {
   background: #FFF;
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 50.3px 0px rgba(0, 0, 0, 0.14);
   padding: 1.5625em;
   border-radius: 2.5rem;
   margin-top: -4em;
@@ -121,6 +121,10 @@ p {
 .stays-for-rent-container {
   padding: 5.625em 0em;
 }
+.stays-for-rent-container .stays-for-rent .heading-container img {
+  width: 50px;
+  margin-bottom: 1.5625rem;
+}
 .stays-for-rent-container .stays-for-rent .heading-container h3 {
   font-family: inherit;
   font-size: 1.85rem;
@@ -135,6 +139,7 @@ p {
   color: #b5b5b5;
 }
 .stays-for-rent-container .stays-for-rent .cards-container {
+  margin-top: 2.1875em;
   width: 75%;
 }
 @media (max-width: 1400px) {
@@ -144,12 +149,13 @@ p {
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd {
   display: grid;
-  height: 500px;
+  height: 600px;
   width: 32%;
   grid-template-rows: 60% 40%;
   background-color: white;
   border-radius: 1.8rem;
   overflow: hidden;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.12);
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .image {
   background-color: white;
@@ -230,10 +236,11 @@ p {
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .details {
   background-color: #fff;
-  border: 1px solid black;
+  width: 100%;
+  overflow: hidden;
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .details .features-row {
-  padding: 0.6875em 0.5em;
+  padding: 0.6875em 0.9em;
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .details .features-row .item {
   display: flex;
@@ -244,12 +251,57 @@ p {
   text-align: center;
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .details .features-row .item img {
-  width: 16px;
+  width: 20px;
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .details .features-row .item p {
   font-family: inherit;
   font-size: 0.8125rem;
   font-weight: 400;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .features-row .sqft img {
+  width: 17px !important;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .location-row {
+  padding: 1em 1.5em;
+  border-top: 2px solid #e9e9e9;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .location-row .loc-row {
+  gap: 0.5em;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .location-row .loc-row img {
+  width: 20px;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .location-row .loc-row p {
+  font-family: inherit;
+  color: #252525;
+  font-size: 0.875rem;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .location-row .loc-row-2 {
+  margin-top: 1em;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .location-row .loc-row-2 p {
+  font-family: inherit;
+  color: #252525;
+  font-size: 0.975rem;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .icons-row {
+  display: flex;
+  width: 100%;
+  height: 5em;
+  padding: 0em 1.5em;
+  margin-top: 0.6em;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .icons-row .iconn {
+  background-color: #252525;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd .details .icons-row .iconn img {
+  width: 25px;
 }
 
 header {

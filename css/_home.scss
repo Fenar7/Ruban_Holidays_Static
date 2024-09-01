@@ -71,7 +71,7 @@
 
 .slider-card-container{
     background: #FFF;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 50.3px 0px rgba(0, 0, 0, 0.14);
     padding: 1.5625em;
     border-radius: 2.5rem;
     margin-top: -4em;
@@ -119,6 +119,10 @@
     padding: 5.625em 0em;
     .stays-for-rent{
         .heading-container{
+            img{
+                width: 50px;
+                margin-bottom: 1.5625rem;
+            }
             h3{
                 font-family: inherit;
                 font-size: 1.85rem;
@@ -137,18 +141,20 @@
         }
 
         .cards-container{
+            margin-top: 2.1875em;
             width: 75%;
             @media(max-width: 1400px){
                 width: 80%;
             }
             .cardd{
                 display: grid;
-                height: 500px;
+                height: 600px;
                 width: 32%;
                 grid-template-rows: 60% 40%;
                 background-color: white;
                 border-radius: 1.8rem;
                 overflow: hidden;
+                box-shadow: 15px 15px 30px rgb(0 0 0/12%);
                 .image{
                     background-color: white;
                     background: linear-gradient(138deg, rgba(0, 0, 0, 0.00) 3.1%, rgba(0, 0, 0, 0.70) 100.25%), url('/images/stayimg1.jpg') lightgray 50% / cover no-repeat;
@@ -239,14 +245,15 @@
 
                 .details{
                     background-color: $white;
-                    border: 1px solid black;
+                    width: 100%;
+                    overflow: hidden;
 
                     .features-row{
-                        padding: 0.6875em 0.5em;
+                        padding: 0.6875em 0.9em;
 
                         .item{
                             img{
-                                width: 16px;
+                                width: 20px;
                             }
 
                             display: flex;
@@ -260,6 +267,60 @@
                                 font-family: inherit;
                                 font-size: 0.8125rem;
                                 font-weight: 400;
+                            }
+                        }
+
+                        .sqft{
+                            img{
+                                width: 17px!important;
+                            }
+                        }
+                    }
+
+                    .location-row{
+                        padding: 1em 1.5em;
+                        border-top: 2px solid #e9e9e9;
+                        .loc-row{
+                            gap: 0.5em;
+                            img{
+                                width: 20px;
+                            }
+                            p{
+                                font-family: inherit;
+                                color: $txt-grey;
+                                font-size: 0.875rem;
+                            }
+                        }
+
+                        .loc-row-2{
+                            margin-top: 1em;
+                            p{
+                                font-family: inherit;
+                                color: $txt-grey;
+                                font-size: 0.975rem;
+                            }
+                        }
+
+                        
+                    }
+
+                    .icons-row{
+                        display: flex;
+                        width: 100%;
+                        height: 5em;
+                        padding: 0em 1.5em;
+                        margin-top: 0.6em;
+
+                        .iconn{
+                            background-color: $black;
+                            width: 40px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 100%;
+                            img{
+                                width: 25px;
                             }
                         }
                     }
