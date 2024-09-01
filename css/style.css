@@ -159,7 +159,6 @@ p {
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .image {
   background-color: white;
-  background: linear-gradient(138deg, rgba(0, 0, 0, 0) 3.1%, rgba(0, 0, 0, 0.7) 100.25%), url("/images/stayimg1.jpg") lightgray 50%/cover no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -302,6 +301,26 @@ p {
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .details .icons-row .iconn img {
   width: 25px;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd1 .image {
+  background: linear-gradient(138deg, rgba(0, 0, 0, 0) 3.1%, rgba(0, 0, 0, 0.7) 100.25%), url("/images/stayimg1.jpg") lightgray 50%/cover no-repeat;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd2 .image {
+  background: linear-gradient(138deg, rgba(0, 0, 0, 0) 3.1%, rgba(0, 0, 0, 0.7) 100.25%), url("/images/stayimg2.jpg") lightgray 50%/cover no-repeat;
+}
+.stays-for-rent-container .stays-for-rent .cards-container .cardd3 .image {
+  background: linear-gradient(138deg, rgba(0, 0, 0, 0) 3.1%, rgba(0, 0, 0, 0.7) 100.25%), url("/images/stayimg3.jpg") lightgray 50%/cover no-repeat;
+}
+.stays-for-rent-container .stays-for-rent .btn-row button {
+  margin-top: 2.1875rem;
+  background-color: white;
+  border: 4px solid #eee;
+  padding: 6px 30px;
+  border-radius: 5rem;
+}
+.stays-for-rent-container .stays-for-rent .btn-row button img {
+  width: 25px;
+  margin-left: 0.9em;
 }
 
 header {
