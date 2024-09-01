@@ -1,3 +1,5 @@
+$text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
+
 .hero-section-container-main{
     height: 75vh;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url('/images/hero-img.jpg') lightgray 50% / cover no-repeat;
@@ -445,6 +447,7 @@
   }
 
   .keep-exploring-container{
+    padding-bottom: 5.625em;
     .keep-exploring{
         .heading-container{
             img{
@@ -466,6 +469,53 @@
                 font-size: 1.0625rem;
                 font-weight: 500;
                 color: #b5b5b5;
+            }
+        }
+
+        .cards-container{
+            margin-top: 2.4em;
+            .item{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                .circle-img{
+                    box-shadow: 14px 15px 48.5px -2px rgba(0, 0, 0, 0.45);
+                    position: relative;
+                    width: 180px;
+                    border-radius: 100%;
+                    height: 180px;
+                    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('/images/stayimg1.jpg') lightgray 50% / cover no-repeat;
+
+                    .number{
+                        position: absolute;
+                        bottom: 10%;
+                        left: 50%; /* Move the element to the center of the container */
+                        transform: translateX(-50%); /* Adjust the position to truly center it */
+                        color: $white;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 3px solid white;
+                        border-radius: 100%;
+                        p{
+                            font-size: 1rem;
+                            font-family: inherit;
+                            font-weight: 700;
+                            text-shadow: $text-sh-val;
+                        }
+                    }
+                }
+
+                h5{
+                    margin-top: 1.1em!important;
+                    font-weight: 600;
+                    font-family: inherit;
+                    font-size: 1.125rem;
+                }
             }
         }
     }
