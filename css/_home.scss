@@ -1,0 +1,53 @@
+.hero-section-container-main{
+    height: 65vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url('/images/hero-img.jpg') lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .hero-section-container{
+        width: 100%;
+        h1{
+            color: #fff;
+            font-size: 4.0625rem;
+            font-weight: 800;
+        }
+
+        p{
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .search-box-container{
+            width: 100%;
+            background-color: rgba(255, 255, 255, .15);
+            padding: 0.5em 0em;
+            border-radius: 0.8rem;
+            .inner-container{
+                background-color: white;
+                border-radius: 0.8rem;
+                width: 98%;
+                height: 80%!important;
+                overflow: hidden;
+                padding: 1.875em 1.25em;
+                .input-field{
+                    width: 20%;
+                }
+                input{
+                    width: 100%;
+                }
+            .search-box{
+                overflow: hidden;
+                input{
+                    width: 100%;
+                }
+            }
+            }
+        }
+    }
+}
+
+.splide__slide img {
+    width: 20%;
+    height: auto;
+  }
