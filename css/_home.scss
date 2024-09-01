@@ -13,6 +13,10 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
             font-size: 4.0625rem;
             font-weight: 800;
             margin-bottom: 0.2em;
+
+            @media(max-width:1200px){
+                font-size: 3rem;
+            }
         }
 
         p{
@@ -20,6 +24,10 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
             font-size: 1rem;
             font-weight: 500;
             margin-bottom: 1em;
+
+            @media(max-width:1200px){
+                font-size: 0.9rem;
+            }
         }
 
         .search-box-container{
@@ -80,6 +88,9 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
     border-radius: 2.5rem;
     margin-top: -4em;
     width: 60%!important;
+    @media(max-width:1200px){
+        width: 80%!important;
+    }
     .slider-card{
         .splide__arrow--prev{
             position: absolute;
@@ -103,6 +114,9 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                         margin: .5em 0em;
                         border-radius: 1.4em;
                         overflow: hidden;
+                        @media(max-width:1200px){
+                            width: 12rem!important;
+                        }
 
                         .category-label{
                             padding: 0.5625em 1.875em;
@@ -121,6 +135,9 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
 
   .stays-for-rent-container{
     padding: 5.625em 0em;
+    @media(max-width:1200px){
+        padding: 4.625em 0em;
+    }
     .stays-for-rent{
         .heading-container{
             img{
@@ -131,6 +148,10 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                 font-family: inherit;
                 font-size: 1.85rem;
                 font-weight: 800;
+
+                @media(max-width:900px){
+                    font-size: 1.5rem;
+                }
 
                 span{
                     color: $cta-color;
@@ -143,6 +164,10 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                 font-size: 1.0625rem;
                 font-weight: 500;
                 color: #b5b5b5;
+
+                @media(max-width:1200px){
+                    font-size: 0.9rem;
+                }
             }
         }
 
@@ -151,6 +176,13 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
             width: 75%;
             @media(max-width: 1400px){
                 width: 80%;
+            }
+            @media(max-width:1200px){
+                width: 80%;
+            }
+            @media(max-width:900px){
+                flex-wrap: wrap;
+                row-gap: 1.8em;
             }
             .cardd{
                 display: grid;
@@ -161,6 +193,9 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                 border-radius: 1.8rem;
                 overflow: hidden;
                 box-shadow: 15px 15px 30px rgb(0 0 0/12%);
+                @media(max-width:900px){
+                    width: 100%;
+                }
                 .image{
                     background-color: white;
                     background-position: center;
@@ -386,12 +421,21 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                 span{
                     color: $cta-color;
                 }
+
+                @media(max-width:900px){
+                    font-size: 1.5rem;
+                }
+
             }
 
             p{
                 font-size: 1.3125rem;
                 font-weight: 700;
                 color: $black;
+
+                @media(max-width:900px){
+                    font-size: 1rem;
+                }
             }
         }
 
@@ -408,16 +452,28 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                     display: flex;
                     flex-direction: column;
                     gap: 1.625em;
+
+                    @media(max-width:900px){
+                        gap: 1rem;
+                    }
                     h3{
                         font-family: inherit;
                         font-size: 2.5rem;
                         font-weight: 800;
                         color: $white;
+
+                        @media(max-width:900px){
+                            font-size: 1.8rem;
+                        }
                     }
                     p{
                         font-size: 1.125rem;
                         color: $white;
                         font-weight: 600;
+
+                        @media(max-width:900px){
+                            font-size: 1rem;
+                        }
                     }
                     button{
                         width: 50px;
@@ -465,6 +521,10 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
                 span{
                     color: $cta-color;
                 }
+
+                @media(max-width:900px){
+                    font-size: 1.5rem;
+                }
             }
 
             p{
@@ -476,6 +536,10 @@ $text-sh-val: 0.8px 1.7px 0.6px rgba(0, 0, 0, 0.62);
 
         .cards-container{
             margin-top: 2.4em;
+            flex-wrap: wrap;
+            @media(max-width:1200px){
+                row-gap: 1.5em;
+            }
             .item{
                     display: flex;
                     flex-direction: column;

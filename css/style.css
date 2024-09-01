@@ -34,11 +34,21 @@ img {
   font-weight: 800;
   margin-bottom: 0.2em;
 }
+@media (max-width: 1200px) {
+  .hero-section-container-main .hero-section-container h1 {
+    font-size: 3rem;
+  }
+}
 .hero-section-container-main .hero-section-container p {
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 1em;
+}
+@media (max-width: 1200px) {
+  .hero-section-container-main .hero-section-container p {
+    font-size: 0.9rem;
+  }
 }
 .hero-section-container-main .hero-section-container .search-box-container {
   width: 100%;
@@ -94,6 +104,11 @@ img {
   margin-top: -4em;
   width: 60% !important;
 }
+@media (max-width: 1200px) {
+  .slider-card-container {
+    width: 80% !important;
+  }
+}
 .slider-card-container .slider-card .splide__arrow--prev {
   position: absolute;
   left: 0px;
@@ -116,6 +131,11 @@ img {
   border-radius: 1.4em;
   overflow: hidden;
 }
+@media (max-width: 1200px) {
+  .slider-card-container .slider-card .splide .splide__track .splide__list .splide__slide {
+    width: 12rem !important;
+  }
+}
 .slider-card-container .slider-card .splide .splide__track .splide__list .splide__slide .category-label {
   padding: 0.5625em 1.875em;
 }
@@ -128,6 +148,11 @@ img {
 .stays-for-rent-container {
   padding: 5.625em 0em;
 }
+@media (max-width: 1200px) {
+  .stays-for-rent-container {
+    padding: 4.625em 0em;
+  }
+}
 .stays-for-rent-container .stays-for-rent .heading-container img {
   width: 32px;
   margin-bottom: 1.5625rem;
@@ -138,13 +163,23 @@ img {
   font-weight: 800;
   margin-bottom: 0.7em;
 }
+@media (max-width: 900px) {
+  .stays-for-rent-container .stays-for-rent .heading-container h3 {
+    font-size: 1.5rem;
+  }
+}
 .stays-for-rent-container .stays-for-rent .heading-container h3 span {
-  color: #26a387;
+  color: #98c33e;
 }
 .stays-for-rent-container .stays-for-rent .heading-container p {
   font-size: 1.0625rem;
   font-weight: 500;
   color: #b5b5b5;
+}
+@media (max-width: 1200px) {
+  .stays-for-rent-container .stays-for-rent .heading-container p {
+    font-size: 0.9rem;
+  }
 }
 .stays-for-rent-container .stays-for-rent .cards-container {
   margin-top: 2.1875em;
@@ -153,6 +188,17 @@ img {
 @media (max-width: 1400px) {
   .stays-for-rent-container .stays-for-rent .cards-container {
     width: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  .stays-for-rent-container .stays-for-rent .cards-container {
+    width: 80%;
+  }
+}
+@media (max-width: 900px) {
+  .stays-for-rent-container .stays-for-rent .cards-container {
+    flex-wrap: wrap;
+    row-gap: 1.8em;
   }
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd {
@@ -165,6 +211,11 @@ img {
   overflow: hidden;
   box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.12);
 }
+@media (max-width: 900px) {
+  .stays-for-rent-container .stays-for-rent .cards-container .cardd {
+    width: 100%;
+  }
+}
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .image {
   background-color: white;
   background-position: center;
@@ -176,7 +227,7 @@ img {
   padding: 1.5rem;
 }
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .image .top-items .rating-circle {
-  background-color: #26a387;
+  background-color: #98c33e;
   height: 45px;
   width: 45px;
   border-radius: 100%;
@@ -224,7 +275,7 @@ img {
 .stays-for-rent-container .stays-for-rent .cards-container .cardd .image .details-section .prop-name .check-icon {
   width: 25px;
   height: 25px;
-  background-color: #26a387;
+  background-color: #98c33e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -348,12 +399,22 @@ img {
   margin-bottom: 1.375em;
 }
 .get-started-container .get-started .heading-container h3 span {
-  color: #26a387;
+  color: #98c33e;
+}
+@media (max-width: 900px) {
+  .get-started-container .get-started .heading-container h3 {
+    font-size: 1.5rem;
+  }
 }
 .get-started-container .get-started .heading-container p {
   font-size: 1.3125rem;
   font-weight: 700;
   color: #252525;
+}
+@media (max-width: 900px) {
+  .get-started-container .get-started .heading-container p {
+    font-size: 1rem;
+  }
 }
 .get-started-container .get-started .card-container .item {
   width: 49%;
@@ -370,16 +431,31 @@ img {
   gap: 1.625em;
   padding: 0em 3.75em;
 }
+@media (max-width: 900px) {
+  .get-started-container .get-started .card-container .item .text {
+    gap: 1rem;
+  }
+}
 .get-started-container .get-started .card-container .item .text h3 {
   font-family: inherit;
   font-size: 2.5rem;
   font-weight: 800;
   color: #fff;
 }
+@media (max-width: 900px) {
+  .get-started-container .get-started .card-container .item .text h3 {
+    font-size: 1.8rem;
+  }
+}
 .get-started-container .get-started .card-container .item .text p {
   font-size: 1.125rem;
   color: #fff;
   font-weight: 600;
+}
+@media (max-width: 900px) {
+  .get-started-container .get-started .card-container .item .text p {
+    font-size: 1rem;
+  }
 }
 .get-started-container .get-started .card-container .item .text button {
   width: 50px;
@@ -416,7 +492,12 @@ img {
   margin-bottom: 0.7em;
 }
 .keep-exploring-container .keep-exploring .heading-container h3 span {
-  color: #26a387;
+  color: #98c33e;
+}
+@media (max-width: 900px) {
+  .keep-exploring-container .keep-exploring .heading-container h3 {
+    font-size: 1.5rem;
+  }
 }
 .keep-exploring-container .keep-exploring .heading-container p {
   font-size: 1.0625rem;
@@ -425,6 +506,12 @@ img {
 }
 .keep-exploring-container .keep-exploring .cards-container {
   margin-top: 2.4em;
+  flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+  .keep-exploring-container .keep-exploring .cards-container {
+    row-gap: 1.5em;
+  }
 }
 .keep-exploring-container .keep-exploring .cards-container .item {
   display: flex;
@@ -499,14 +586,14 @@ header .header-container .links-container a {
   padding: 7px 12px;
 }
 header .header-container .links-container .contact-us-btn {
-  background-color: #26a387;
+  background-color: #98c33e;
   padding: 0.7875rem 1.3125em;
   border-radius: 10rem;
   color: #fff;
 }
 
 footer {
-  background-color: #26a387;
+  background-color: #98c33e;
   border-radius: 20px;
   padding: 3.125em !important;
   color: #fff;
