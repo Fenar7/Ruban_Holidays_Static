@@ -344,6 +344,20 @@ p {
   font-weight: 700;
   color: #252525;
 }
+.get-started-container .get-started .card-container .item {
+  width: 49%;
+  height: 21.875em;
+  overflow: hidden;
+  border-radius: 2.2rem;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.09%, rgba(0, 0, 0, 0.65) 103.43%), url("/images/call-to.webp") lightgray 50%/cover no-repeat;
+}
+.get-started-container .get-started .card-container .item button {
+  background-color: white;
+  border: none;
+}
+.get-started-container .get-started .card-container .item button img {
+  width: 60px;
+}
 
 header {
   padding: 1.4375rem 0rem !important;
